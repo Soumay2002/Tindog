@@ -1,0 +1,160 @@
+#title{
+    background-color: #ff4c68;
+}
+html{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.7rem;
+    line-height: 1.5;
+    color: #fff;
+    padding-bottom: 2rem;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.img-fluid{
+    transform: rotate(25deg);
+}
+.navbar-brand{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font: bold;
+}
+.navbar{
+    padding: 0%;
+}
+.nav-link{
+    font-size: 20px;
+}
+.row{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.nav-item{
+    padding: 0 10%;
+}
+.download-left-button{
+    padding-right: 3%;
+}
+.title-image{
+    width: 60%;
+    position: absolute;
+    z-index: 0;
+    right: 10%;
+}
+.row-features{
+    text-align: center;
+    padding-top: 13%;
+}
+.fa-check{
+    background-color: #ef8172;
+    padding: 2%;
+    font-size: 50px;
+    color: #fff;
+    border-radius: 100%;
+}
+.fa-bullseye{
+    background-color: #ef8172;
+    padding: 1%;
+    font-size: 50px;
+    color: #fff;
+    border-radius: 100%;
+}
+.fa-heart{
+    font-size:70px;
+    color: #ef8172;
+    border-radius: 100%;   
+}
+.feautures-list-center{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.para-features{
+    color: #8f8f8f;
+    margin: 0 ;
+    padding: 0 30%;
+    font-size: 20px;
+}
+.icons:hover{
+    background-color: #ff4c68;
+}
+.icons-heart:hover{
+    color: #ff4c68;
+}
+#features{
+    padding: 2% 15% 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 2% 15%;
+}
+#pricing{
+    padding: 100px 100px 0px 100px;
+    text-align: center;
+}
+@media (max-width:1028px){
+
+    #title{
+        text-align: left;
+    }
+    .title-image{
+        position: static;
+        padding: 10%;
+        width: 100%;
+        transform: rotate(0);
+    }
+}
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+}
+.cta-h3{
+    font-size: 70px;
+    padding: 10%;
+    margin: 10%;
+    color: #fff;
+    font-family: Montserrat;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+.cta-button{
+    margin-bottom: 5%;
+}
+#footer{
+    text-align: center;
+    padding-top: 100px;
+}
+.fa-twitter,.fa-facebook-f,.fa-instagram,.fa-envelope {
+    padding-left: 15px;
+}
